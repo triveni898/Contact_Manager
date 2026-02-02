@@ -1,0 +1,88 @@
+body{font-family:Segoe UI;background:linear-gradient(135deg,#3b82f6,#8b5cf6);color:white}
+.card{background:rgba(255,255,255,0.15);backdrop-filter:blur(10px);
+border-radius:15px;padding:12px;margin:8px;box-shadow:0 10px 20px rgba(0,0,0,.3)}
+button{border:2px solid #22d3ee;background:transparent;color:white;
+padding:8px 14px;border-radius:20px;cursor:pointer}
+button:hover{background:#22d3ee;color:black}
+input,select,textarea{border-radius:10px;padding:8px;border:1px solid #7c3aed;margin:4px}
+
+body{
+  font-family: Segoe UI, sans-serif;
+  background:
+    linear-gradient(135deg, rgba(59,130,246,0.85), rgba(139,92,246,0.85)),
+    url("https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1600&q=80");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  min-height: 100vh;
+  margin: 0;
+  padding: 20px;
+}
+
+h1, h2{
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* Cards */
+.card{
+  background: rgba(255,255,255,0.18);
+  backdrop-filter: blur(12px);
+  border-radius: 16px;
+  padding: 15px;
+  margin: 10px auto;
+  max-width: 500px;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.35);
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+.card:hover{
+  transform: translateY(-4px);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.45);
+}
+
+/* Buttons */
+button{
+  border: 2px solid #22d3ee;
+  background: transparent;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all .2s ease;
+}
+button:hover{
+  background: #22d3ee;
+  color: black;
+}
+
+/* Inputs */
+input, select, textarea{
+  border-radius: 10px;
+  padding: 8px;
+  border: 1px solid #7c3aed;
+  margin: 6px 0;
+  width: 100%;
+  background: rgba(0,0,0,0.3);
+  color: white;
+}
+input::placeholder, textarea::placeholder{
+  color: #ddd;
+}
+
+/* Layout helpers */
+form{
+  max-width: 500px;
+  margin: auto;
+  background: rgba(255,255,255,0.12);
+  padding: 15px;
+  border-radius: 16px;
+  backdrop-filter: blur(10px);
+}
+#contactList{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
