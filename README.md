@@ -58,7 +58,7 @@ contact-manager-pro/
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/triveni898/contact-manager-pro.git
+   git clone https://github.com/triveni898/Contact_Manager.git
    ```
 2. Open the folder.
 3. Double-click **index.html**
