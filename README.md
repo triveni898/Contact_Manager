@@ -73,7 +73,3 @@ GitHub: [https://github.com/triveni898](https://github.com/triveni898)
 
 ---
 
-If you want, I can also:
-
-* Add a **resume bullet version**
-* Or a **short project description for LinkedIn**
